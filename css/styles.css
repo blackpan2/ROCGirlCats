@@ -1,0 +1,59 @@
+/**********
+Presentation Theme Colors
+Teal: #a1e7d9
+White: #ffffff
+Dark Brown: #695d46
+Light Brown: #b2a77d
+Dark Orange: #ef6c00
+Forest Green: #019668
+Light Cyan: #4db5ac
+Orange: #ff9801
+Light Purple: #ce93d8
+Dark Yellow: #eeff41
+*/
+body {
+	font-family: Helvetica;
+	color: #695d46;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: WhiteSmoke;
+}
+
+div {
+	display: inline-block;
+	text-align: justify;
+	vertical-align: top;
+}
+
+h1, h2 {
+	clear: both;
+}
+
+h1 {
+	color: #ef6c00;
+}
+
+h2 {
+	color: #019668;
+}
+
+img {
+	height: 100px;
+	width: auto;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  margin: 10px;
+}
